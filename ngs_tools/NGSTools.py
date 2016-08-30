@@ -2,7 +2,7 @@
 """
 Created on Sat Jun  7 14:28:28 2014
 
-@author: jhdavis
+@author: Joey Davis <joeydavis@gmail.com>
 """
 
 import pylab
