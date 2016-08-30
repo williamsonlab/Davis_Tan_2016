@@ -24,6 +24,3 @@ Tools included in this repository include:
 
 *spectrast_rt_extract
 **A small tool used to pull the retention time out of a spectraST library to be used for iRT libraries in Skyline
-
-*skyline_calc_abundance
-**A python script uesd to filter and plot datasets output by Skyline
