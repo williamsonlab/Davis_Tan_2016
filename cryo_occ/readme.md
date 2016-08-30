@@ -23,13 +23,13 @@
 2.	Align maps
     a.	Open maps
     b.	Fit in map (align to the same one you amplitude scaled to)
-    c.	If there are negative values, use vop scale shift [amount[
-    d.	vop #1 resample onGrid #0
+    c.	If there are negative values, use  vop scale [model number] shift [offset value]
+    d.	vop [model moved] resample onGrid [base model]
     e.	Volume viewer to save as _scaled_aligned.mrc
 3.	Align pdb file
     a.	Open 4ybb_grouped.py
     b.	Open scaled_aligned maps
-    c.	Fit in map (align to the most complete structure)
+    c.	Fit in map (align PDB files to the most complete structure)
     d.	Save pdb (check relative to and choose the base map from above) - $name_aligned_[base model]
 4.	Make pdb reference files
     a.	Edit part1a_chimera.py to update the reference map, resolution, etc.
