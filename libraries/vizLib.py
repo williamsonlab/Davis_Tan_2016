@@ -1,3 +1,7 @@
+"""
+@author: Joey Davis <joeydavis@gmail.com>
+"""
+
 import math
 import matplotlib.pyplot as pylab
 import scipy.cluster.hierarchy as sch
