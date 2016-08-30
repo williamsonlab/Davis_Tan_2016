@@ -1,0 +1,10 @@
+Mod	C 	H 	N 	O 	S 	P	Text
+a	2	2	0	1	0	0	Acetylation (+CH3CO, -H)
+b	1	2	0	0	1	0	Beta-Methylthiolation (+CH3S, -H)
+c	2	3	1	1	0	0	Carbamido (+C2H4NO, -H) (Cysteines)
+d   0   2   0   0   0   0   Dihydrouridine (+H2)
+m	1	2	0	0	0	0	Methylation (+CH3, -H)
+p	0	1	0	3	0	1	Phosphorylation (+PO3H2, -H)
+e	14	15	1	9	0	0	EGS Mono-Linked
+f	10	10	0	6	0	0	EGS Cross-Linked
+u	0	0	0	0	0	0	Pseudouridylation
