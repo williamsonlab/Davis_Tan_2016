@@ -1,0 +1,128 @@
+"Q08745" => "S10X", # 40S ribosomal protein S10-A OS=Saccharomyces cerevisiae
+"P46784" => "S10X", # 40S ribosomal protein S10-B OS=Saccharomyces cerevisiae
+"P26781" => "S11", # 40S ribosomal protein S11 OS=Saccharomyces cerevisiae
+"P48589" => "S12", # 40S ribosomal protein S12 OS=Saccharomyces cerevisiae
+"P05756" => "S13", # 40S ribosomal protein S13 OS=Saccharomyces cerevisiae
+"P06367" => "S14X", # 40S ribosomal protein S14-A OS=Saccharomyces cerevisiae
+"P39516" => "S14X", # 40S ribosomal protein S14-B OS=Saccharomyces cerevisiae
+"Q01855" => "S15", # 40S ribosomal protein S15 OS=Saccharomyces cerevisiae
+"P40213" => "S16", # 40S ribosomal protein S16 OS=Saccharomyces cerevisiae
+"P02407" => "S17X", # 40S ribosomal protein S17-A OS=Saccharomyces cerevisiae
+"P14127" => "S17X", # 40S ribosomal protein S17-B OS=Saccharomyces cerevisiae
+"P35271" => "S18", # 40S ribosomal protein S18 OS=Saccharomyces cerevisiae
+"P07280" => "S19X", # 40S ribosomal protein S19-A OS=Saccharomyces cerevisiae
+"P07281" => "S19X", # 40S ribosomal protein S19-B OS=Saccharomyces cerevisiae
+"P38701" => "S20", # 40S ribosomal protein S20 OS=Saccharomyces cerevisiae
+"P0C0V8" => "S21X", # 40S ribosomal protein S21-A OS=Saccharomyces cerevisiae
+"Q3E754" => "S21X", # 40S ribosomal protein S21-B OS=Saccharomyces cerevisiae
+"P0C0W1" => "S22X", # 40S ribosomal protein S22-A OS=Saccharomyces cerevisiae
+"Q3E7Y3" => "S22X", # 40S ribosomal protein S22-B OS=Saccharomyces cerevisiae
+"P32827" => "S23", # 40S ribosomal protein S23 OS=Saccharomyces cerevisiae
+"P26782" => "S24", # 40S ribosomal protein S24 OS=Saccharomyces cerevisiae
+"Q3E792" => "S25X", # 40S ribosomal protein S25-A OS=Saccharomyces cerevisiae
+"P0C0T4" => "S25X", # 40S ribosomal protein S25-B OS=Saccharomyces cerevisiae
+"P39938" => "S26X", # 40S ribosomal protein S26-A OS=Saccharomyces cerevisiae
+"P39939" => "S26X", # 40S ribosomal protein S26-B OS=Saccharomyces cerevisiae
+"P35997" => "S27X", # 40S ribosomal protein S27-A OS=Saccharomyces cerevisiae
+"P38711" => "S27X", # 40S ribosomal protein S27-B OS=Saccharomyces cerevisiae
+"Q3E7X9" => "S28X", # 40S ribosomal protein S28-A OS=Saccharomyces cerevisiae
+"P0C0X0" => "S28X", # 40S ribosomal protein S28-B OS=Saccharomyces cerevisiae
+"P41057" => "S29X", # 40S ribosomal protein S29-A OS=Saccharomyces cerevisiae
+"P41058" => "S29X", # 40S ribosomal protein S29-B OS=Saccharomyces cerevisiae
+"P25443" => "S2", # 40S ribosomal protein S2 OS=Saccharomyces cerevisiae
+"Q12087" => "S30", # 40S ribosomal protein S30 OS=Saccharomyces cerevisiae
+"P05759" => "S31", # 40S ribosomal protein S31 OS=Saccharomyces cerevisiae
+"B3RHV0" => "S1X", # 40S ribosomal protein S1-A OS=Saccharomyces cerevisiae (strain RM11-1a)
+"C7GSL4" => "S1X", # 40S ribosomal protein S1-A OS=Saccharomyces cerevisiae (strain JAY291)
+"B5VNY0" => "S1X", # 40S ribosomal protein S1-A OS=Saccharomyces cerevisiae (strain AWRI1631)
+"A7A1W1" => "S1X", # 40S ribosomal protein S1-A OS=Saccharomyces cerevisiae (strain YJM789)
+"P33442" => "S1X", # 40S ribosomal protein S1-A OS=Saccharomyces cerevisiae
+"B3LLJ2" => "S1X", # 40S ribosomal protein S1-B OS=Saccharomyces cerevisiae (strain RM11-1a)
+"C7GVZ9" => "S1X", # 40S ribosomal protein S1-B OS=Saccharomyces cerevisiae (strain JAY291)
+"B5VP69" => "S1X", # 40S ribosomal protein S1-B OS=Saccharomyces cerevisiae (strain AWRI1631)
+"A6ZM02" => "S1X", # 40S ribosomal protein S1-B OS=Saccharomyces cerevisiae (strain YJM789)
+"P23248" => "S1X", # 40S ribosomal protein S1-B OS=Saccharomyces cerevisiae
+"P05750" => "S3", # 40S ribosomal protein S3 OS=Saccharomyces cerevisiae
+"P05753" => "S4", # 40S ribosomal protein S4 OS=Saccharomyces cerevisiae
+"P26783" => "S5", # 40S ribosomal protein S5 OS=Saccharomyces cerevisiae
+"P02365" => "S6", # 40S ribosomal protein S6 OS=Saccharomyces cerevisiae
+"P26786" => "S7X", # 40S ribosomal protein S7-A OS=Saccharomyces cerevisiae
+"P48164" => "S7X", # 40S ribosomal protein S7-B OS=Saccharomyces cerevisiae
+"P05754" => "S8", # 40S ribosomal protein S8 OS=Saccharomyces cerevisiae
+"O13516" => "S9X", # 40S ribosomal protein S9-A OS=Saccharomyces cerevisiae
+"P05755" => "S9X", # 40S ribosomal protein S9-B OS=Saccharomyces cerevisiae
+"B3LI22" => "S0X", # 40S ribosomal protein S0-A OS=Saccharomyces cerevisiae (strain RM11-1a)
+"A6ZUM5" => "S0X", # 40S ribosomal protein S0-A OS=Saccharomyces cerevisiae (strain YJM789)
+"P32905" => "S0X", # 40S ribosomal protein S0-A OS=Saccharomyces cerevisiae
+"B3LT19" => "S0X", # 40S ribosomal protein S0-B OS=Saccharomyces cerevisiae (strain RM11-1a)
+"A7A0V3" => "S0X", # 40S ribosomal protein S0-B OS=Saccharomyces cerevisiae (strain YJM789)
+"P46654" => "S0X", # 40S ribosomal protein S0-B OS=Saccharomyces cerevisiae
+"P41805" => "L10", # 60S ribosomal protein L10 OS=Saccharomyces cerevisiae
+"P0C0W9" => "L11X", # 60S ribosomal protein L11-A OS=Saccharomyces cerevisiae
+"Q3E757" => "L11X", # 60S ribosomal protein L11-B OS=Saccharomyces cerevisiae
+"P17079" => "L12", # 60S ribosomal protein L12 OS=Saccharomyces cerevisiae
+"Q12690" => "L13X", # 60S ribosomal protein L13-A OS=Saccharomyces cerevisiae
+"P40212" => "L13X", # 60S ribosomal protein L13-B OS=Saccharomyces cerevisiae
+"P36105" => "L14X", # 60S ribosomal protein L14-A OS=Saccharomyces cerevisiae
+"P38754" => "L14X", # 60S ribosomal protein L14-B OS=Saccharomyces cerevisiae
+"P05748" => "L15X", # 60S ribosomal protein L15-A OS=Saccharomyces cerevisiae
+"P54780" => "L15X", # 60S ribosomal protein L15-B OS=Saccharomyces cerevisiae
+"P26784" => "L16X", # 60S ribosomal protein L16-A OS=Saccharomyces cerevisiae
+"P26785" => "L16X", # 60S ribosomal protein L16-B OS=Saccharomyces cerevisiae
+"P05740" => "L17X", # 60S ribosomal protein L17-A OS=Saccharomyces cerevisiae
+"P46990" => "L17X", # 60S ribosomal protein L17-B OS=Saccharomyces cerevisiae
+"P07279" => "L18", # 60S ribosomal protein L18 OS=Saccharomyces cerevisiae
+"P05735" => "L19", # 60S ribosomal protein L19 OS=Saccharomyces cerevisiae
+"P53030" => "L1", # 60S ribosomal protein L1 OS=Saccharomyces cerevisiae
+"P0C2I0" => "L20", # 60S ribosomal protein L20 OS=Saccharomyces cerevisiae
+"Q02753" => "L21X", # 60S ribosomal protein L21-A OS=Saccharomyces cerevisiae
+"Q12672" => "L21X", # 60S ribosomal protein L21-B OS=Saccharomyces cerevisiae
+"P05749" => "L22X", # 60S ribosomal protein L22-A OS=Saccharomyces cerevisiae
+"P56628" => "L22X", # 60S ribosomal protein L22-B OS=Saccharomyces cerevisiae
+"P04451" => "L23", # 60S ribosomal protein L23 OS=Saccharomyces cerevisiae
+"P04449" => "L24X", # 60S ribosomal protein L24-A OS=Saccharomyces cerevisiae
+"P24000" => "L24X", # 60S ribosomal protein L24-B OS=Saccharomyces cerevisiae
+"P04456" => "L25", # 60S ribosomal protein L25 OS=Saccharomyces cerevisiae
+"P05743" => "L26X", # 60S ribosomal protein L26-A OS=Saccharomyces cerevisiae
+"P53221" => "L26X", # 60S ribosomal protein L26-B OS=Saccharomyces cerevisiae
+"P0C2H6" => "L27X", # 60S ribosomal protein L27-A OS=Saccharomyces cerevisiae
+"P0C2H7" => "L27X", # 60S ribosomal protein L27-B OS=Saccharomyces cerevisiae
+"P02406" => "L28", # 60S ribosomal protein L28 OS=Saccharomyces cerevisiae
+"P05747" => "L29", # 60S ribosomal protein L29 OS=Saccharomyces cerevisiae
+"P05736" => "L2", # 60S ribosomal protein L2 OS=Saccharomyces cerevisiae
+"P14120" => "L30", # 60S ribosomal protein L30 OS=Saccharomyces cerevisiae
+"P0C2H8" => "L31X", # 60S ribosomal protein L31-A OS=Saccharomyces cerevisiae
+"P0C2H9" => "L31X", # 60S ribosomal protein L31-B OS=Saccharomyces cerevisiae
+"P38061" => "L32", # 60S ribosomal protein L32 OS=Saccharomyces cerevisiae
+"P05744" => "L33X", # 60S ribosomal protein L33-A OS=Saccharomyces cerevisiae
+"P41056" => "L33X", # 60S ribosomal protein L33-B OS=Saccharomyces cerevisiae
+"P87262" => "L34X", # 60S ribosomal protein L34-A OS=Saccharomyces cerevisiae
+"P40525" => "L34X", # 60S ribosomal protein L34-B OS=Saccharomyces cerevisiae
+"P39741" => "L35", # 60S ribosomal protein L35 OS=Saccharomyces cerevisiae
+"P05745" => "L36X", # 60S ribosomal protein L36-A OS=Saccharomyces cerevisiae
+"O14455" => "L36X", # 60S ribosomal protein L36-B OS=Saccharomyces cerevisiae
+"P49166" => "L37X", # 60S ribosomal protein L37-A OS=Saccharomyces cerevisiae
+"P51402" => "L37X", # 60S ribosomal protein L37-B OS=Saccharomyces cerevisiae
+"P49167" => "L38", # 60S ribosomal protein L38 OS=Saccharomyces cerevisiae
+"P04650" => "L39", # 60S ribosomal protein L39 OS=Saccharomyces cerevisiae
+"P14126" => "L3", # 60S ribosomal protein L3 OS=Saccharomyces cerevisiae
+"P14796" => "L40", # 60S ribosomal protein L40 OS=Saccharomyces cerevisiae
+"P05746" => "L41", # 60S ribosomal protein L41 OS=Saccharomyces cerevisiae
+"P49631" => "L43", # 60S ribosomal protein L43 OS=Saccharomyces cerevisiae
+"P02405" => "L42", # 60S ribosomal protein L42 OS=Saccharomyces cerevisiae
+"P10664" => "L4X", # 60S ribosomal protein L4-A OS=Saccharomyces cerevisiae
+"P49626" => "L4X", # 60S ribosomal protein L4-B OS=Saccharomyces cerevisiae
+"P26321" => "L5", # 60S ribosomal protein L5 OS=Saccharomyces cerevisiae
+"Q02326" => "L6X", # 60S ribosomal protein L6-A OS=Saccharomyces cerevisiae
+"P05739" => "L6X", # 60S ribosomal protein L6-B OS=Saccharomyces cerevisiae
+"P05737" => "L7X", # 60S ribosomal protein L7-A OS=Saccharomyces cerevisiae
+"Q12213" => "L7X", # 60S ribosomal protein L7-B OS=Saccharomyces cerevisiae
+"P17076" => "L8X", # 60S ribosomal protein L8-A OS=Saccharomyces cerevisiae
+"P29453" => "L8X", # 60S ribosomal protein L8-B OS=Saccharomyces cerevisiae
+"P05738" => "L9X", # 60S ribosomal protein L9-A OS=Saccharomyces cerevisiae
+"P51401" => "L9X", # 60S ribosomal protein L9-B OS=Saccharomyces cerevisiae
+"P05317" => "P0", # 60S acidic ribosomal protein P0 OS=Saccharomyces cerevisiae
+"P05318" => "P1X", # 60S acidic ribosomal protein P1-alpha OS=Saccharomyces cerevisiae
+"P05319" => "P2X", # 60S acidic ribosomal protein P2-alpha OS=Saccharomyces cerevisiae
+"P10622" => "P1X", # 60S acidic ribosomal protein P1-beta OS=Saccharomyces cerevisiae
+"P02400" => "P2X", # 60S acidic ribosomal protein P2-beta OS=Saccharomyces cerevisiae

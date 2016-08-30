@@ -1,0 +1,100 @@
+# Human 40S
+"P15880" => "RS2", # >sp|P15880|RS2_HUMAN 40S ribosomal protein S2 OS=Homo sapiens GN=RPS2 PE=1 SV=2
+"P23396" => "RS3", # >sp|P23396|RS3_HUMAN 40S ribosomal protein S3 OS=Homo sapiens GN=RPS3 PE=1 SV=2
+"P61247" => "RS3A", # >sp|P61247|RS3A_HUMAN 40S ribosomal protein S3a OS=Homo sapiens GN=RPS3A PE=1 SV=2
+"P62701" => "RS4X", # >sp|P62701|RS4X_HUMAN 40S ribosomal protein S4, X isoform OS=Homo sapiens GN=RPS4X PE=1 SV=2
+"P22090" => "RS4Y1", # >sp|P22090|RS4Y1_HUMAN 40S ribosomal protein S4, Y isoform 1 OS=Homo sapiens GN=RPS4Y1 PE=2 SV=2
+"Q8TD47" => "RS4Y2", # >sp|Q8TD47|RS4Y2_HUMAN 40S ribosomal protein S4, Y isoform 2 OS=Homo sapiens GN=RPS4Y2 PE=1 SV=3
+"P46782" => "RS5", # >sp|P46782|RS5_HUMAN 40S ribosomal protein S5 OS=Homo sapiens GN=RPS5 PE=1 SV=4
+"P62753" => "RS6", # >sp|P62753|RS6_HUMAN 40S ribosomal protein S6 OS=Homo sapiens GN=RPS6 PE=1 SV=1
+"P62081" => "RS7", # >sp|P62081|RS7_HUMAN 40S ribosomal protein S7 OS=Homo sapiens GN=RPS7 PE=1 SV=1
+"P62241" => "RS8", # >sp|P62241|RS8_HUMAN 40S ribosomal protein S8 OS=Homo sapiens GN=RPS8 PE=1 SV=2
+"P46781" => "RS9", # >sp|P46781|RS9_HUMAN 40S ribosomal protein S9 OS=Homo sapiens GN=RPS9 PE=1 SV=3
+"P46783" => "RS10", # >sp|P46783|RS10_HUMAN 40S ribosomal protein S10 OS=Homo sapiens GN=RPS10 PE=1 SV=1
+"Q9NQ39" => "RS10L", # >sp|Q9NQ39|RS10L_HUMAN Putative 40S ribosomal protein S10-like OS=Homo sapiens GN=RPS10P5 PE=5 SV=1
+"P62280" => "RS11", # >sp|P62280|RS11_HUMAN 40S ribosomal protein S11 OS=Homo sapiens GN=RPS11 PE=1 SV=3
+"P25398" => "RS12", # >sp|P25398|RS12_HUMAN 40S ribosomal protein S12 OS=Homo sapiens GN=RPS12 PE=1 SV=3
+"P62277" => "RS13", # >sp|P62277|RS13_HUMAN 40S ribosomal protein S13 OS=Homo sapiens GN=RPS13 PE=1 SV=2
+"P62263" => "RS14", # >sp|P62263|RS14_HUMAN 40S ribosomal protein S14 OS=Homo sapiens GN=RPS14 PE=1 SV=3
+"P62841" => "RS15", # >sp|P62841|RS15_HUMAN 40S ribosomal protein S15 OS=Homo sapiens GN=RPS15 PE=1 SV=2
+"P62244" => "RS15A", # >sp|P62244|RS15A_HUMAN 40S ribosomal protein S15a OS=Homo sapiens GN=RPS15A PE=1 SV=2
+"P62249" => "RS16", # >sp|P62249|RS16_HUMAN 40S ribosomal protein S16 OS=Homo sapiens GN=RPS16 PE=1 SV=2
+"P08708" => "RS17", # >sp|P08708|RS17_HUMAN 40S ribosomal protein S17 OS=Homo sapiens GN=RPS17 PE=1 SV=2
+"P62269" => "RS18", # >sp|P62269|RS18_HUMAN 40S ribosomal protein S18 OS=Homo sapiens GN=RPS18 PE=1 SV=3
+"P39019" => "RS19", # >sp|P39019|RS19_HUMAN 40S ribosomal protein S19 OS=Homo sapiens GN=RPS19 PE=1 SV=2
+"P60866" => "RS20", # >sp|P60866|RS20_HUMAN 40S ribosomal protein S20 OS=Homo sapiens GN=RPS20 PE=1 SV=1
+"P63220" => "RS21", # >sp|P63220|RS21_HUMAN 40S ribosomal protein S21 OS=Homo sapiens GN=RPS21 PE=1 SV=1
+"P62266" => "RS23", # >sp|P62266|RS23_HUMAN 40S ribosomal protein S23 OS=Homo sapiens GN=RPS23 PE=1 SV=3
+"P62847" => "RS24", # >sp|P62847|RS24_HUMAN 40S ribosomal protein S24 OS=Homo sapiens GN=RPS24 PE=1 SV=1
+"P62851" => "RS25", # >sp|P62851|RS25_HUMAN 40S ribosomal protein S25 OS=Homo sapiens GN=RPS25 PE=1 SV=1
+"P62854" => "RS26", # >sp|P62854|RS26_HUMAN 40S ribosomal protein S26 OS=Homo sapiens GN=RPS26 PE=1 SV=3
+"Q5JNZ5" => "RS26L", # >sp|Q5JNZ5|RS26L_HUMAN Putative 40S ribosomal protein S26-like 1 OS=Homo sapiens GN=RPS26P11 PE=5 SV=1
+"P42677" => "RS27", # >sp|P42677|RS27_HUMAN 40S ribosomal protein S27 OS=Homo sapiens GN=RPS27 PE=1 SV=3
+"P62979" => "RS27A", # >sp|P62979|RS27A_HUMAN 40S ribosomal protein S27a OS=Homo sapiens GN=RPS27A PE=1 SV=1
+"Q71UM5" => "RS27L", # >sp|Q71UM5|RS27L_HUMAN 40S ribosomal protein S27-like OS=Homo sapiens GN=RPS27L PE=1 SV=3
+"P62857" => "RS28", # >sp|P62857|RS28_HUMAN 40S ribosomal protein S28 OS=Homo sapiens GN=RPS28 PE=1 SV=1
+"P62273" => "RS29", # >sp|P62273|RS29_HUMAN 40S ribosomal protein S29 OS=Homo sapiens GN=RPS29 PE=1 SV=2
+"P62861" => "RS30", # >sp|P62861|RS30_HUMAN 40S ribosomal protein S30 OS=Homo sapiens GN=FAU PE=1 SV=1
+"P08865" => "RSSA", # >sp|P08865|RSSA_HUMAN 40S ribosomal protein SA OS=Homo sapiens GN=RPSA PE=1 SV=4
+# Human 60S
+"P39023" => "RL3", # >sp|P39023|RL3_HUMAN 60S ribosomal protein L3 OS=Homo sapiens GN=RPL3 PE=1 SV=2
+"Q92901" => "RL3L", # >sp|Q92901|RL3L_HUMAN 60S ribosomal protein L3-like OS=Homo sapiens GN=RPL3L PE=1 SV=3
+"P36578" => "RL4", # >sp|P36578|RL4_HUMAN 60S ribosomal protein L4 OS=Homo sapiens GN=RPL4 PE=1 SV=5
+"P46777" => "RL5", # >sp|P46777|RL5_HUMAN 60S ribosomal protein L5 OS=Homo sapiens GN=RPL5 PE=1 SV=3
+"Q02878" => "RL6", # >sp|Q02878|RL6_HUMAN 60S ribosomal protein L6 OS=Homo sapiens GN=RPL6 PE=1 SV=3
+"P18124" => "RL7", # >sp|P18124|RL7_HUMAN 60S ribosomal protein L7 OS=Homo sapiens GN=RPL7 PE=1 SV=1
+"P62424" => "RL7A", # >sp|P62424|RL7A_HUMAN 60S ribosomal protein L7a OS=Homo sapiens GN=RPL7A PE=1 SV=2
+"Q6DKI1" => "RL7L", # >sp|Q6DKI1|RL7L_HUMAN 60S ribosomal protein L7-like 1 OS=Homo sapiens GN=RPL7L1 PE=1 SV=1
+"P62917" => "RL8", # >sp|P62917|RL8_HUMAN 60S ribosomal protein L8 OS=Homo sapiens GN=RPL8 PE=1 SV=2
+"P32969" => "RL9", # >sp|P32969|RL9_HUMAN 60S ribosomal protein L9 OS=Homo sapiens GN=RPL9 PE=1 SV=1
+"P27635" => "RL10", # >sp|P27635|RL10_HUMAN 60S ribosomal protein L10 OS=Homo sapiens GN=RPL10 PE=1 SV=4
+"P62906" => "RL10A", # >sp|P62906|RL10A_HUMAN 60S ribosomal protein L10a OS=Homo sapiens GN=RPL10A PE=1 SV=2
+"Q96L21" => "RL10L", # >sp|Q96L21|RL10L_HUMAN 60S ribosomal protein L10-like OS=Homo sapiens GN=RPL10L PE=1 SV=3
+"P62913" => "RL11", # >sp|P62913|RL11_HUMAN 60S ribosomal protein L11 OS=Homo sapiens GN=RPL11 PE=1 SV=2
+"P30050" => "RL12", # >sp|P30050|RL12_HUMAN 60S ribosomal protein L12 OS=Homo sapiens GN=RPL12 PE=1 SV=1
+"P26373" => "RL13", # >sp|P26373|RL13_HUMAN 60S ribosomal protein L13 OS=Homo sapiens GN=RPL13 PE=1 SV=4
+"P40429" => "RL13A", # >sp|P40429|RL13A_HUMAN 60S ribosomal protein L13a OS=Homo sapiens GN=RPL13A PE=1 SV=2
+#"Q6NVV1" => "R13AX", # >sp|Q6NVV1|R13AX_HUMAN Putative 60S ribosomal protein L13a-like MGC87657 OS=Homo sapiens PE=5 SV=1
+"Q6NVV1" => "RL13AX", # >sp|Q6NVV1|R13AX_HUMAN Putative 60S ribosomal protein L13a-like MGC87657 OS=Homo sapiens PE=5 SV=1
+"P50914" => "RL14", # >sp|P50914|RL14_HUMAN 60S ribosomal protein L14 OS=Homo sapiens GN=RPL14 PE=1 SV=4
+"P61313" => "RL15", # >sp|P61313|RL15_HUMAN 60S ribosomal protein L15 OS=Homo sapiens GN=RPL15 PE=1 SV=2
+"P18621" => "RL17", # >sp|P18621|RL17_HUMAN 60S ribosomal protein L17 OS=Homo sapiens GN=RPL17 PE=1 SV=3
+"Q07020" => "RL18", # >sp|Q07020|RL18_HUMAN 60S ribosomal protein L18 OS=Homo sapiens GN=RPL18 PE=1 SV=2
+"Q02543" => "RL18A", # >sp|Q02543|RL18A_HUMAN 60S ribosomal protein L18a OS=Homo sapiens GN=RPL18A PE=1 SV=2
+"P84098" => "RL19", # >sp|P84098|RL19_HUMAN 60S ribosomal protein L19 OS=Homo sapiens GN=RPL19 PE=1 SV=1
+"P46778" => "RL21", # >sp|P46778|RL21_HUMAN 60S ribosomal protein L21 OS=Homo sapiens GN=RPL21 PE=1 SV=2
+"P35268" => "RL22", # >sp|P35268|RL22_HUMAN 60S ribosomal protein L22 OS=Homo sapiens GN=RPL22 PE=1 SV=2
+"Q6P5R6" => "RL22L", # >sp|Q6P5R6|RL22L_HUMAN 60S ribosomal protein L22-like 1 OS=Homo sapiens GN=RPL22L1 PE=1 SV=2
+"P62829" => "RL23", # >sp|P62829|RL23_HUMAN 60S ribosomal protein L23 OS=Homo sapiens GN=RPL23 PE=1 SV=1
+"P62750" => "RL23A", # >sp|P62750|RL23A_HUMAN 60S ribosomal protein L23a OS=Homo sapiens GN=RPL23A PE=1 SV=1
+"P83731" => "RL24", # >sp|P83731|RL24_HUMAN 60S ribosomal protein L24 OS=Homo sapiens GN=RPL24 PE=1 SV=1
+"P61254" => "RL26", # >sp|P61254|RL26_HUMAN 60S ribosomal protein L26 OS=Homo sapiens GN=RPL26 PE=1 SV=1
+"Q9UNX3" => "RL26L", # >sp|Q9UNX3|RL26L_HUMAN 60S ribosomal protein L26-like 1 OS=Homo sapiens GN=RPL26L1 PE=1 SV=1
+"P61353" => "RL27", # >sp|P61353|RL27_HUMAN 60S ribosomal protein L27 OS=Homo sapiens GN=RPL27 PE=1 SV=2
+"P46776" => "RL27A", # >sp|P46776|RL27A_HUMAN 60S ribosomal protein L27a OS=Homo sapiens GN=RPL27A PE=1 SV=2
+"P46779" => "RL28", # >sp|P46779|RL28_HUMAN 60S ribosomal protein L28 OS=Homo sapiens GN=RPL28 PE=1 SV=3
+"P47914" => "RL29", # >sp|P47914|RL29_HUMAN 60S ribosomal protein L29 OS=Homo sapiens GN=RPL29 PE=1 SV=2
+"P62888" => "RL30", # >sp|P62888|RL30_HUMAN 60S ribosomal protein L30 OS=Homo sapiens GN=RPL30 PE=1 SV=2
+"P62899" => "RL31", # >sp|P62899|RL31_HUMAN 60S ribosomal protein L31 OS=Homo sapiens GN=RPL31 PE=1 SV=1
+"P62910" => "RL32", # >sp|P62910|RL32_HUMAN 60S ribosomal protein L32 OS=Homo sapiens GN=RPL32 PE=1 SV=2
+"P49207" => "RL34", # >sp|P49207|RL34_HUMAN 60S ribosomal protein L34 OS=Homo sapiens GN=RPL34 PE=1 SV=3
+"P42766" => "RL35", # >sp|P42766|RL35_HUMAN 60S ribosomal protein L35 OS=Homo sapiens GN=RPL35 PE=1 SV=2
+"P18077" => "RL35A", # >sp|P18077|RL35A_HUMAN 60S ribosomal protein L35a OS=Homo sapiens GN=RPL35A PE=1 SV=2
+"Q9Y3U8" => "RL36", # >sp|Q9Y3U8|RL36_HUMAN 60S ribosomal protein L36 OS=Homo sapiens GN=RPL36 PE=1 SV=3
+"P83881" => "RL36A", # >sp|P83881|RL36A_HUMAN 60S ribosomal protein L36a OS=Homo sapiens GN=RPL36A PE=1 SV=2
+"Q969Q0" => "RL36L", # >sp|Q969Q0|RL36L_HUMAN 60S ribosomal protein L36a-like OS=Homo sapiens GN=RPL36AL PE=1 SV=3
+"P0C6E6" => "RL36X", # >sp|P0C6E6|RL36X_HUMAN Putative 60S ribosomal protein L36-like 1 OS=Homo sapiens PE=5 SV=1
+"P61927" => "RL37", # >sp|P61927|RL37_HUMAN 60S ribosomal protein L37 OS=Homo sapiens GN=RPL37 PE=1 SV=2
+"P61513" => "RL37A", # >sp|P61513|RL37A_HUMAN 60S ribosomal protein L37a OS=Homo sapiens GN=RPL37A PE=1 SV=2
+"A6NKH3" => "RL37L", # >sp|A6NKH3|RL37L_HUMAN Putative 60S ribosomal protein L37a-like OS=Homo sapiens GN=RPL37L PE=5 SV=2
+"P63173" => "RL38", # >sp|P63173|RL38_HUMAN 60S ribosomal protein L38 OS=Homo sapiens GN=RPL38 PE=1 SV=2
+"P62891" => "RL39", # >sp|P62891|RL39_HUMAN 60S ribosomal protein L39 OS=Homo sapiens GN=RPL39 PE=2 SV=2
+"Q96EH5" => "RL39L", # >sp|Q96EH5|RL39L_HUMAN 60S ribosomal protein L39-like OS=Homo sapiens GN=RPL39L PE=1 SV=3
+#"Q59GN2" => "R39L5", # >sp|Q59GN2|R39L5_HUMAN Putative 60S ribosomal protein L39-like 5 OS=Homo sapiens GN=RPL39P5 PE=5 SV=2
+"Q59GN2" => "RL39L5", # >sp|Q59GN2|R39L5_HUMAN Putative 60S ribosomal protein L39-like 5 OS=Homo sapiens GN=RPL39P5 PE=5 SV=2
+"P62987" => "RL40", # >sp|P62987|RL40_HUMAN 60S ribosomal protein L40 OS=Homo sapiens GN=UBA52 PE=1 SV=1
+"P62945" => "RL41", # >sp|P62945|RL41_HUMAN 60S ribosomal protein L41 OS=Homo sapiens GN=RPL41 PE=2 SV=1
+"P05388" => "RLA0", # >sp|P05388|RLA0_HUMAN 60S acidic ribosomal protein P0 OS=Homo sapiens GN=RPLP0 PE=1 SV=1
+"Q8NHW5" => "RLA0L", # >sp|Q8NHW5|RLA0L_HUMAN 60S acidic ribosomal protein P0-like OS=Homo sapiens PE=1 SV=1
+"P05386" => "RLA1", # >sp|P05386|RLA1_HUMAN 60S acidic ribosomal protein P1 OS=Homo sapiens GN=RPLP1 PE=1 SV=1
+"P05387" => "RLA2", # >sp|P05387|RLA2_HUMAN 60S acidic ribosomal protein P2 OS=Homo sapiens GN=RPLP2 PE=1 SV=1

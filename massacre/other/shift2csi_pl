@@ -1,0 +1,308 @@
+#!/usr/bin/perl
+#
+# Author:  leigh willard
+# Project: Carolyn Slupsky
+# Version: 1.1, 0/2/94
+# Version: 2.0, Dec 2002 
+# Purpose: This perl script takes an assignment file for input,
+#          and converts it to something that CSI can use.
+#
+# Usage:   shift2csi
+#
+#
+#
+
+$VERS = "2.0";
+$tmp_file = "shift2csi_tmp";
+
+
+	if ($#ARGV != -1) {
+		print "USAGE: shift2csi\n";
+		exit;
+	}
+
+ 	&print_header;
+
+	print "   Enter name of your shift file.\n>> ";
+	$inname = <STDIN>;
+	chop($inname);
+	if (! -r $inname ) {
+		print "** ERROR: cannot read file $inname\n";
+		exit;
+	}
+
+    print "\n\n   Enter name of output file.\n>> ";
+	$outname = <STDIN>;
+	chop($outname);
+	if (-e $outname) {
+		print "** WARNING: file $outname already exists\n";
+		print ">> Overwrite (y/n)? ";
+		$answer = <STDIN>;
+		if ( m/[nN]/o) {
+			exit;
+		}
+	}
+
+	$ha_ever = $co_ever = $ca_ever = $cb_ever = 0;
+
+#	gather all data and print out
+	&process;
+
+#	run output through nawk, getting rid of columns which are
+#	all zero's
+	&filter;
+
+	print "\n\n** Output written to $outname\n";
+
+
+#.....................................................................
+# purpose: print out the standard CAMRA header.
+#
+sub print_header {
+
+`clear`;
+print<<HEADER;
+
+
+**********************************************************************
+
+
+                               SHIFT2CSI 
+
+  purpose: To take a shift file as input, and to convert it to
+		   something that CSI can read.
+  version: $VERS
+  author:  leigh willard
+  project: Carolyn Slupsky 
+
+
+**********************************************************************
+
+
+HEADER
+
+}
+
+
+#.....................................................................
+# process one file of data
+#
+sub process
+{
+#	scan for header line
+	open(INPUT, $inname);
+	unlink($tmp_file);
+	open(OUTPUT, ">$tmp_file");
+	print OUTPUT "   #    AA       HA           CA           CB          CO\n";
+	while (<INPUT>) {
+
+#		new residue
+		if (m/^([0-9]+) */o) {
+			$aanum = $1;
+			$aatype = $';
+			chop($aatype);
+			$ha = $ha1 = $ha2 = $co = $ca = $cb = 0;
+		}
+
+		elsif (m/^HA1\s*(.*)/o) {
+			$ha_ever = 1;
+			$ha1 = $1;
+		}
+		elsif (m/^HA2\s*(.*)/o) {
+			$ha_ever = 1;
+			$ha2 = $1;
+		}
+		elsif (m/^HA#*\s*(.*)/o) {
+			$ha_ever = 1;
+			$ha = $1;
+		}
+
+		elsif (m/^CA\s*(.*)/o) {
+			$ca_ever = 1;
+			$ca = $1;
+		}
+
+		elsif (m/^CB\s*(.*)/o) {
+			$cb_ever = 1;
+			$cb = $1;
+		}
+
+		elsif (m/^C\s+(.*)/o) {
+			$co_ever = 1;
+			$co = $1;
+		}
+
+		elsif (m/^;/o) {
+			&printoutput();
+		}
+
+	}
+	close(INPUT);
+	close(OUTPUT);
+}
+
+
+
+#.....................................................................
+# PURPOSE: print the output
+#
+sub printoutput 
+{
+
+# 	there may be HA1's and HA2's.  In this case take the average.
+
+	if ( ($ha1 != 0) && ($ha2 != 0) ) {
+		$ha = ($ha1 + $ha2) / 2;
+	}
+	elsif ($ha1 != 0) {
+		$ha = $ha1;
+	}
+	elsif ($ha2 != 0) {
+		$ha = $ha2;
+	}
+
+	&convert_short();
+	printf OUTPUT "%4s     %s   ", $aanum,  $aashort;
+
+	if ($ha == 0) {
+		print OUTPUT "    0   ";
+	}
+	else {
+		printf OUTPUT "%.3f   ", $ha;
+	}	
+
+	if ($ca == 0) {
+		print OUTPUT "     0   ";
+	}
+	else {
+		printf OUTPUT "%.3f   ", $ca;
+	}	
+
+	if ($cb == 0) {
+		print OUTPUT "     0   ";
+	}
+	else {
+		printf OUTPUT "%.3f   ", $cb;
+	}	
+
+	if ($co == 0) {
+		print OUTPUT "      0   ";
+	}
+	else {
+		printf OUTPUT "%.3f   ", $co;
+	}	
+	printf OUTPUT "\n";
+
+}
+
+
+
+#.....................................................................
+# run output through nawk, getting rid of columns which are
+# all zero's.
+#
+sub filter
+{
+
+	$nawk_line = "nawk \' { x=sprintf(\"%4s    %s    ";
+	$nawk_line2 = "\$1, \$2 ";
+
+
+	if ($ha_ever == 1) {
+		$nawk_line = $nawk_line . "%6s    ";
+		$nawk_line2 = $nawk_line2 . ",\$3 ";
+	}
+
+	if ($ca_ever == 1) {
+		$nawk_line = $nawk_line . "%6s    ";
+		$nawk_line2 = $nawk_line2 . ",\$4 ";
+	}
+
+	if ($cb_ever == 1) {
+		$nawk_line = $nawk_line . "%6s    ";
+		$nawk_line2  = $nawk_line2 . ",\$5 ";
+	}
+
+	if ($co_ever == 1) {
+		$nawk_line = $nawk_line . "%6s    ";
+		$nawk_line2 = $nawk_line2 . ",\$6 ";
+	}
+
+	$nawk_line = $nawk_line."\", ". $nawk_line2 . "); print x}\'  $tmp_file > $outname";
+
+
+	system($nawk_line);
+	unlink($tmp_file);
+
+}
+
+
+
+#.....................................................................
+# PURPOSE: to convert the 3 letter aa code into the 1 letter one.
+#
+#
+sub convert_short
+{
+
+	if ($aatype =~ /ALA/) {
+		$aashort = "A";
+	}
+	elsif ($aatype =~ /CYS/) {
+		$aashort = "C";
+	}
+	elsif ($aatype =~ /ASP/) {
+		$aashort = "D";
+	}
+	elsif ($aatype =~ /GLU/) {
+		$aashort = "E";
+	}
+	elsif ($aatype =~ /PHE/) {
+		$aashort = "F";
+	}
+	elsif ($aatype =~ /GLY/) {
+		$aashort = "G";
+	}
+	elsif ($aatype =~ /HIS/) {
+		$aashort = "H";
+	}
+	elsif ($aatype =~ /ILE/) {
+		$aashort = "I";
+	}
+	elsif ($aatype =~ /LYS/) {
+		$aashort = "K";
+	}
+	elsif ($aatype =~ /LEU/) {
+		$aashort = "L";
+	}
+	elsif ($aatype =~ /MET/) {
+		$aashort = "M";
+	}
+	elsif ($aatype =~ /ASN/) {
+		$aashort = "N";
+	}
+	elsif ($aatype =~ /PRO/) {
+		$aashort = "P";
+	}
+	elsif ($aatype =~ /GLN/) {
+		$aashort = "Q";
+	}
+	elsif ($aatype =~ /ARG/) {
+		$aashort = "R";
+	}
+	elsif ($aatype =~ /SER/) {
+		$aashort = "S";
+	}
+	elsif ($aatype =~ /THR/) {
+		$aashort = "T";
+	}
+	elsif ($aatype =~ /VAL/) {
+		$aashort = "V";
+	}
+	elsif ($aatype =~ /TRP/) {
+		$aashort = "W";
+	}
+	elsif ($aatype =~ /TYR/) {
+		$aashort = "Y";
+	}
+}

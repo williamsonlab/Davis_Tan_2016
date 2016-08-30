@@ -1,0 +1,2 @@
+#!/bin/sh
+/private/automount/jrwill_lab/PyMOLX11Hybrid.app/Contents/MacOS/PyMOL $*

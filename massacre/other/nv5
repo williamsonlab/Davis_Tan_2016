@@ -1,0 +1,5 @@
+#!/bin/csh
+setenv NMRVIEW5HOME /jrwill_lab/nmrview
+setenv TCL_LIBRARY  ${NMRVIEW5HOME}/tcl8.3
+setenv TK_LIBRARY  ${NMRVIEW5HOME}/tcl8.3
+${NMRVIEW5HOME}/nmrview -- -s ${NMRVIEW5HOME}/tcl/startfile5

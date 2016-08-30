@@ -1,0 +1,6 @@
+#!/bin/csh
+setenv PENCEMRC_BIN /jrwill_lab/bin
+setenv PENCEMRC_LIB /jrwill_lab/lib
+/jrwill_lab/bin/csi_ $*
+unsetenv PENCEMRC_BIN
+unsetenv PENCEMRC_LIB

@@ -1,0 +1,56 @@
+#!/bin/csh
+#
+#  simple driver program for calling up the CSI programs.
+#
+#  Leigh Willard
+#  January 1997
+#
+#
+
+#........................................................................
+
+echo ' '
+echo ' '
+echo 'CSI Version 2.1 Main Menu'
+echo 'Enter the number of the desired function:'
+echo '   1) Help'
+echo '   2) Reformat .shift file to csi format'
+echo '   3) Adjust/Re-reference Chemical Shifts'
+echo '   4) Calculate Raw CSI'
+echo '   5) Calculate Filtered CSI'
+echo '   6) Display Graphical Output'
+echo '   0) Exit'
+echo '> '
+
+set reply = $<
+while ($reply != '0')
+	if ($reply == '1') then
+		echo ' Please see www.pence.ca/software/csi'
+	else if ($reply == '2') then
+		$PENCEMRC_BIN/shift2csi_pl
+	else if ($reply == '3') then
+		$PENCEMRC_BIN/adjust
+	else if ($reply == '4') then
+		$PENCEMRC_BIN/shift_struc -r
+	else if ($reply == '5') then
+		$PENCEMRC_BIN/shift_struc -f
+	else if ($reply == '6') then
+		echo ' csigraph is for SGI only '
+		$PENCEMRC_BIN/csigraph
+	endif
+
+
+	echo ' '
+	echo ' '
+	echo 'CSI Version 2.1 Main Menu'
+	echo 'Enter the number of the desired function:'
+	echo '   1) Help'
+	echo '   2) Reformat .shift file to csi format'
+	echo '   3) Adjust/Re-reference Chemical Shifts'
+	echo '   4) Calculate Raw CSI'
+	echo '   5) Calculate Filtered CSI'
+	echo '   6) Display Graphical Output'
+	echo '   0) Exit'
+	echo '> '
+	set reply = $<
+end

@@ -1,0 +1,36 @@
+in vitro unlabeled + 99.3% N15  = comment record
+1  = nspecies
+U  3.0  = label and initial amplitude of species U
+6  = number of atom types
+C default
+H default
+N default
+O default
+S default
+P default
+A default
+  10 12 5 6 0 1
+U default
+  9 11 2 8 0 1   
+G default
+  10 12 5 7 0 1
+C default
+  9 12 3 7 0 1
+Z default
+  0 2 0 1 0 0
+X default
+  0 1 0 0 0 0
+a default
+  2 2 0 1 0 0
+b default
+  1 2 0 0 1 0
+c default
+  2 3 1 1 0 0
+d default
+  0 2 0 0 0 0 
+m default
+  1 2 0 0 0 0
+p default
+  0 1 0 3 0 1
+u default
+  0 0 0 0 0 0
