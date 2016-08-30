@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<bioml label="x! taxon-to-file matching list">
+  <taxon label="mydatabase">
+    <file format="peptide" URL="c:/Inetpub/wwwroot/ISB/data/parameters/REFSEQS/coli_UP0625_cRAP_contMQ_pierceIRT_REF_2016_02_02_withDecoys_RAND0RAND1.fasta" />
+  </taxon>
+</bioml>
