@@ -7,6 +7,8 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
+These tools are provided as is and are not supported. Users should feel free to modify and adopt as they see fit.
+
 Tools included in this repository include:
 *cryo_occ
 **A set of scripts used to calculate protein and rRNA helix occupancy in density maps
