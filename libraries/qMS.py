@@ -1268,9 +1268,20 @@ def makeStatsDictMRM(df, pList=[], fList=[], fileNameField='File Name', proteinN
             else:
                 statsDict[prot][f]=list(hold.values)
     return statsDict
-    
+  
 def saveRPOnly(inputFile, outputFile, stringContains=['RS', 'RL'], field='protein'):
     init = readIsoCSV(inputFile)
     goodIdx = init[field].str.contains('|'.join([i for i in stringContains]))
     init[goodIdx].to_csv(outputFile, index=False)
-    
+ 
+def filterCSV(inputCSVPath, outputCSVPath, regExp):
+    ##Example usage: regExp = 'R[SL][0-9]' will give ribosomal proteins
+    f = open(inputCSVPath, 'r')
+    outFile = open(outputCSVPath, 'w')
+    lines = f.readlines()
+    outFile.write(lines[0])
+    for l in lines[1:]:
+        protein = l.split(',')[0].split('/')[1].split('_')[0]
+        if bool(re.search(regExp, protein)):
+            outFile.write(l)
+    outFile.close() 
