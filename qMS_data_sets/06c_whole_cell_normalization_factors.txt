@@ -1,0 +1,12 @@
+PLB_nSW_77.wiff.zip	0.81
+PLB_nSW_78.wiff.zip	1.05
+PLB_nSW_79.wiff.zip	0.9
+PLB_nSW_80.wiff.zip	0.45
+PLB_nSW_81.wiff.zip	0.37
+PLB_nSW_83.wiff.zip	0.33
+PLB_nSW_86.wiff.zip	1.08
+PLB_nSW_87.wiff.zip	1.16
+PLB_nSW_88.wiff.zip	1.02
+PLB_nSW_89.wiff.zip	1.13
+PLB_nSW_90.wiff.zip	1.19
+PLB_nSW_92.wiff.zip	1.19
